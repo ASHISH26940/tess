@@ -1,0 +1,37 @@
+# Python specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env # Ignore .env files where API keys and sensitive info are stored
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/ # For Jupyter Notebooks
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# IDE specific files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Large files/data (if you store them locally and don't want them in Git)
+# Depending on your project, you might have specific data folders to ignore.
+# For example:
+# /data/
+# /models/
+
+# Output directories
+/dist/
+/build/
+*.egg-info/
